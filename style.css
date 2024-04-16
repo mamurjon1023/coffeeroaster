@@ -1,0 +1,235 @@
+/* Universal */
+body {
+    background-color: #F3D7B7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    text-transform: capitalize;
+}
+
+header img {
+    height: 100%;
+}
+
+/* Intro */
+.intro {
+    margin-top: 100px;
+}
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.intro .stamp {
+    position: absolute;
+    top: 50px;
+    left: 560px;
+    z-index: 1;
+}
+
+.intro h1 {
+    font-size: 52px;
+}
+
+.intro p {
+    line-height: 26px;
+}
+
+/* Commitment */
+.commitment {
+    background-color: white;
+}
+
+.commitment .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.commitment .content {
+    width: 600px;
+}
+
+.commitment h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.commitment p {
+    line-height: 25px;
+}
+
+/* Quality Styles */
+.quality {
+    background-color: #C99B67;
+}
+
+.quality .container {
+    display: flex;
+    align-items: center;
+    gap: 100px; 
+}
+
+.quality .content {
+    color: white;
+}
+
+.quality h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.quality p {
+    line-height: 25px;
+}
+
+.quality img {
+    position: relative;
+    top: -100px;
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul{
+    display: flex;
+    gap: 30px;
+}
+
+/* ABOUT PAGE */
+
+/* Intro */
+.about-intro .container {
+    display: flex;
+    gap: 150px;
+}
+
+.about-intro .ice-cream {
+    height: 500px;
+}
+
+.about-intro .stamp {
+    position: absolute;
+    top: 50px;
+    right: 550px;
+}
+
+.about-intro {
+    margin-top: 100px;
+}
+
+.about-intro h1 {
+    font-size: 62px;
+}
+
+.about-intro p {
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.about-intro a {
+    background-color: #0A775F;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+/* Collection styles */
+.collections {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.collections h2 {
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.collections .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collections .row img {
+    width: 40%;
+}
+
+.collections .row div {
+    width: 50%;
+}
+
+.collections .row p {
+    width: 60%;
+    line-height: 26px;
+}
+
+.chapdan {
+    animation-name: chapdanchiq;
+    animation-duration: 1s;
+}
+
+.ongdan {
+    animation-name: ongdanchiq;
+    animation-duration: 1s;
+}
+
+@keyframes chapdanchiq {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes ongdanchiq {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
